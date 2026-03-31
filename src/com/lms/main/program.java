@@ -1,7 +1,8 @@
 package com.lms.main;
 
 import java.util.Scanner;
-import com.lms.menu.Menu;
+
+import com.lms.menu.*;
 
 public class program {
 
@@ -15,6 +16,20 @@ public class program {
 			switch (choice) {
 			case 1:
 				System.out.println("Addition will  happen");
+				break;
+			case 2:
+				int i;
+				while ((i = multiply_menu.menu(sc)) != 0) {
+					switch (i) {
+					case 1:
+						System.out.println("multiply will happen");
+						break;
+
+					default:
+						break;
+					}
+					
+				}
 				break;
 
 			default:
