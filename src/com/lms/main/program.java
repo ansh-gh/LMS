@@ -1,8 +1,7 @@
 package com.lms.main;
 
-import java.util.Scanner;
-
 import com.lms.menu.*;
+import java.util.Scanner;
 
 public class program {
 
@@ -24,6 +23,10 @@ public class program {
 					case 1:
 						System.out.println("multiply will happen");
 						break;
+						case 3:
+					System.out.println("Division will happen");
+					
+					break;
 
 					default:
 						break;
@@ -31,6 +34,7 @@ public class program {
 					
 				}
 				break;
+				
 
 			default:
 				break;
